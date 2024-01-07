@@ -2,7 +2,7 @@ from picozero import Pot # Pot is short for Potentiometer
 from time import sleep
 from picozero import Speaker
 
-speaker = Speaker(5) ## Connected speaker to pin (GP05)
+speaker = Speaker(5) ## Connected to speaker to pin (GP05)
 
 dial = Pot(0) # Connected to pin A0 (GP_26)
    
